@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Move Box on Page Load</title>
+<style>
+    .box {
+        transition: transform 5s ease;
+    }
+
+    .move-right {
+        transform: translateX(200px); /* Move 200px to the right */
+    }
+</style>
+</head>
+<body>
+
+<div class="box">This is the box</div>
+
+<script>
+    // Get the box element
+    const box = document.querySelector('.box');
+
+    // Add the 'move-right' class to the box when the page loads
+    window.addEventListener('load', function() {
+        box.classList.add('move-right');
+    });
+</script>
+
+</body>
+</html>

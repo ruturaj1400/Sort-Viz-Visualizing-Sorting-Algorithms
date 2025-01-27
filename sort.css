@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,500;1,700&display=swap');
+
+body{
+    margin: 0%;
+    background-color:#0b132b;
+}
+.hyper{
+    list-style: none;
+    text-decoration: none;
+}
+p{
+    font-size: xx-large;
+    font-family: "Montserrat",sans-serif;
+}
+.Name{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    background-color: #1c2541;
+    border-left:  rgb(165, 152, 152)  10px solid;
+}
+summary{
+    font-size: xx-large;
+    color: whitesmoke;
+    cursor: pointer;
+    
+}
+.nev{
+    width: 100%;
+    box-sizing: border-box;
+    
+    display: flex;
+    justify-content: right;
+    background-color: #14213d;
+    border-radius: 25px;
+}
+.Navbar{
+   box-sizing: border-box;
+    font-family: "Montserrat",sans-serif;
+
+   
+}
+.Navbar ul{
+    overflow: auto;
+    font-family: "Montserrat",sans-serif;
+
+}
+.Navbar li{
+    font-family: "Montserrat",sans-serif;
+
+    color:  rgb(147, 150, 147);
+    float: right;
+    list-style: none;
+    padding: 10px 10px ; 
+    border: 2px #d00000;
+}
+#nav p{
+    font-family: "Montserrat",sans-serif;
+    justify-self: center;
+    font-size: large;
+    color: gray;
+}
+.para{
+    font-family: "Montserrat",sans-serif;
+    font-size: xx-large;
+    color: whitesmoke;
+    font-weight: 400;
+    padding-left: 15px;
+    /* margin: 0; */
+}
+h1 {
+    font-family: "Montserrat",sans-serif;
+    font-size: 40px;
+    color: #ffd000;
+    margin: 25px 5%;
+    padding: 1% 1%;
+}
+h2{
+    font-family: "Montserrat",sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+    margin: 25px 5%;
+    padding: 1% 1%;
+    
+}
+.buble{
+   
+    margin: 35px 5%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.sortname{
+    font-size: x-large;
+    color:  whitesmoke;
+  
+}
+.sortname:hover{
+    box-shadow: 0px 0px 10px 10px;
+    background-color: transparent;
+    transition: 0.9px all;
+    
+}
+.sortname p{
+    font-size: x-large;
+    color:  whitesmoke;
+}
+.button{
+    margin: 80px 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+button{
+    width: 150px;
+    height: 80px;
+    background-color: #1c2541;
+    border: 2px #00bbf9 solid ;
+    color: #ffc300;
+    font-size: x-large;
+    border-radius: 20px;
+}
+button:hover{
+    z-index: 1;
+    cursor: pointer;
+    color: #1c2541;
+    background-color:transparent;
+    background: linear-gradient(#fca311,#ffd000,#ffea00);
+    transition: all 0.9s;
+}
+
+.bars{
+    
+    background-color: whitesmoke;
+    border: 3px solid #ffd000;
+    transition: 0.3s ease-in-out;
+}
+.graph{
+    width: 60%;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    padding: 2% 5%;
+    border: 6px solid #ffd000;
+    margin-left: 15%; ;
+}
+.contact{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    background-color: #1c2541;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+h3{
+   color: whitesmoke;
+   font-size: x-large;
+   font-weight: 400;
+    margin-top: 5px;
+    font-family: "Montserrat",sans-serif;
+}
+.title1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+tr{
+    
+    color: white;
+    font-size: x-large;
+    font-weight: 900;
+}
+td,th {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
+.information{
+    display: flex;
+    flex-direction: row;
+}
+.implementation{
+    display: flex;
+    
+}
+.imple{
+    padding: 20px;
+    border:  #ffc300 solid 1px;
+    width: 40%;
+    margin-left: 50px;
+}
+.image{
+    padding: 15px;
+    border: #ffc300 solid 1px;
+}
+.image:hover{
+    background-color: #14213d;
+    transition: 0.5s;
+}
+img:hover{
+    height: 55px;
+    transition: 1s;
+}
+p {
+    font-size: 16px; /* Change the font size as needed */
+  }
+.code{
+    color: antiquewhite;
+    size: 10px;
+}
+.keyword {
+    color: #00FFFF;
+    font-style: oblique;
+  }
+.h1title{
+    color: #f8cf74;
+}  
+
+.box {
+        
+    transition: transform 5s ease;
+    }
+    
+
+.move-right {
+        transform: translateX(500px); /* Move 200px to the right */
+    }

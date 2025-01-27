@@ -1,0 +1,115 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+.ti{
+    margin-top: 25px;
+}
+.tile_{
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: 15px 10px;
+    margin:0% 90px;
+    justify-content: center;
+    border-left:10px solid ;
+    border-color: rgb(165, 152, 152) ;
+    
+}
+.sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 2% 20%;
+}
+h1{
+    font-size: 40px;
+    color: rgb(28, 230, 44);
+    margin: 15px 0%;
+}
+.head_{
+    width: 30%;
+    height: 100px;
+    padding: 10px 8px;
+    margin: 0%;
+    /* background-color: rgb(206, 183, 81); */
+}
+.info{
+    width: 100%;
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-size: x-large;
+    color: rgb(10, 237, 40);
+}
+li{
+    font-size: x-large;
+    color: rgb(10, 237, 40);
+}
+.but{
+    height: 99px;
+    width: 190px;
+    font-weight: 800;
+    font-size: xx-large;
+    color: rgb(10, 237, 40);
+    background-color: black;
+    border: 2px rgb(10, 237, 40) solid ;
+    cursor: pointer;
+}
+.butt{
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+.but:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+.Navbar{
+    background-color: rgb(0, 0, 0);
+    font-family: "Montserrat",sans-serif;
+    
+
+   
+}
+.Navbar ul{
+    overflow: auto;
+}
+.Navbar li{
+    color:  rgb(147, 150, 147);
+    float: right;
+    list-style: none;
+    padding: 10px 10px ; 
+    border: 2px rgb(10, 237, 40);
+}
+.Navbar li:hover{
+box-shadow: 0px 10px 30px 10px  rgb(10, 237, 40);
+transition: 0.9s all;
+border-radius: 15px;
+}
+#nav p{
+    justify-self: center;
+    font-size: smaller;
+    color: gray;
+}
+.contacts{
+    font-size: xx-large;
+    color:  rgb(226, 190, 31);
+    background-color: rgb(0, 0, 0);
+    font-style: italic;
+}
+.contacts li{
+    color:  rgb(147, 150, 147);
+    list-style: none;
+    padding: 10px 10px ; 
+}
